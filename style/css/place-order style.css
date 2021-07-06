@@ -1,0 +1,87 @@
+
+ /* .body{
+    background-color: green;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.form-control{
+   background-color: blue;
+   width: 300px;
+   height: 500px;
+   position: relative;
+
+}
+.item1{
+    flex-direction: column;
+    background-color: cadetblue;
+    border-radius: 5%;
+}
+.order1{
+
+
+} */
+body{
+    background-image: url(../image/57100_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+   color: black;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  /* padding-left: 395;
+  padding-right: 825;  */
+  z-index: -2;
+  margin-top: 50px;
+}  
+.form-control{
+    background-color:green;
+    justify-content: center;
+    border-bottom: 200px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+    button {
+      background-color: green;
+      color: #fff;
+      border: 1px purple solid;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 20px 30px;
+      overflow: hidden;
+      margin: 10px 0;
+      position: relative;
+    }
+    
+    button:focus {
+      outline: none;
+    }
+    
+    button .circle {
+      position: absolute;
+      background-color: #fff;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      animation: scale 0.5s ease-out;
+    }
+    
+    @keyframes scale {
+      to {
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0;
+      }
+    }
+    

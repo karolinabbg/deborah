@@ -2,4 +2,20 @@ body{
     background-image: url(../image/kb.JPG); 
     background-repeat: no-repeat;
     background-size: cover;
+    height:150vh;
 }
+.news-1{
+    line-height:30px;
+    background-color: palegoldenrod;
+    width: 400px;
+    border-radius: 5%;
+    border-color: darkolivegreen;
+}
+ .news-2{
+     line-height: 30px;
+     background-color: palegreen;
+     width: 400px;
+     flex-direction: ;
+
+
+ }
