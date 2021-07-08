@@ -25,7 +25,7 @@
 
 } */
 body{
-    background-image: url(../image/57100_1.jpg);
+    background-image: url(../image/agro.jfif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,7 +51,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
   
-    button {
+    /* button {
       background-color: green;
       color: #fff;
       border: 1px purple solid;
@@ -84,4 +84,7 @@ body{
         opacity: 0;
       }
     }
-    
+     */
+     .item6{
+       color: cornsilk;
+     }
