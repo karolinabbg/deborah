@@ -1,0 +1,82 @@
+*{
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+   background-color: #24252A; 
+}
+li, a, button{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo{
+  background-image: url(../image/BUBBLE.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom;
+ cursor: pointer;
+ 
+
+}
+.nav__links{
+  list-style: none;
+  line-height: 30px;
+  color: steelblue;
+}
+.nav__links li{
+display: inline-block;
+padding: 0px 20px;
+
+}
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+  color: white;
+
+}
+.nav__links li a:hover{
+  color: #0041bbea;
+}
+button{
+  padding: 9px 25px;
+  background-color:rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(0,136,169,0.8);
+
+}
+.content{
+ color: white;
+ font-family: sans-serif;
+ line-height: 50px;
+ flex-wrap: wrap;
+ padding-left: 3%;
+}
+.content h2{
+  color: steelblue;
+}
+.content h3{
+  color: steelblue;
+}
+  .content h3 ul li{
+  background: tomato;
+  }
+
+.home{
+  padding-bottom: 20%;
+  padding-left: 3%;
+  padding-top: 5%;
+  line-height: 70px;
+
+}
